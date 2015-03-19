@@ -1,0 +1,404 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ANSM</title>
+        
+    </head>
+
+    <body>
+        <div id="experiment">
+            <!-- The Experiment Document Container-->
+            <!-- The lab Header contains the logo and the name of the lab,
+      usually displayed on the top of the page-->
+
+            <header class="default" id="experiment-header">
+                <div class="logo" id="experiment-header-logo">
+                    <!-- Enclose the logo image of your lab or write it in 
+              text-->
+                    <img src="../images/logo.jpg"></div>
+
+                <div class="heading" id="experiment-header-heading">
+                    <!-- Write the name of your lab and link it to the home 
+          page of your lab (h1 tag is preferred while writing your 
+          lab name)-->
+                    <a href="../index.html">Physics Lab</a>
+                </div><!-- Add any additional element you want to add to the lab 
+        header, For example : Help (Enclosing them with suitable 
+        div is recommended)-->
+            </header><!-- The lab article is the main content area where all the 
+      experiment content sits-->
+
+            <article id="experiment-article">
+                <!-- The lab article has an header, optional navigational 
+        menu, number of sections, an optional sidebar and a closing 
+        footer-->
+
+                <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+                <header class="heading" id="experiment-article-heading">
+                    Characterize the temperature sensor
+                </header><!-- Navigation menu is useful to organize the view of 
+          multiple sections inside the article-->
+
+                <nav class="default" id="experiment-article-navigation">
+                    <ul id="experiment-article-navigation-menu">
+                        <!-- The menu can be dynamically generated to contain 
+              the headings of your sections or instead write the 
+              menu items of your choice individually enclosedu in 
+              &lt;li&gt; tag as shown below-->
+                    </ul>
+                </nav><!-- All the sections of your lab or experiment can be 
+          enclosed together with a div element as shown below-->
+
+                <div id="experiment-article-sections">
+                    <!-- First section of the article-->
+
+                    <!-----------------------------------SECTION - 1---------------------------------------------------------------------------------->                    
+
+                    <section id="experiment-article-section-1">
+                        <div class="icon" id="experiment-article-section-1-icon">
+                            <!-- Enclose the icon image of your lab -->
+                            <img src="../images/introduction.jpg"></div>
+                        <!-- The heading for the section can be enclosed in a   div tag. -->
+
+                        <div class="heading" id="experiment-article-section-1-heading">
+                            Theory
+                        </div><!-- Write the section content inside a paragraph element, You can also include images with &lt;img&gt; tag -->
+
+                        <div class="content" id="experiment-article-section-1-content">
+                            <div class="divContent">
+                                <p>
+									<h2><span style="background-color: rgb(255, 255, 0);">Objective:</span> To Verify Thevenin Theorem.</h2>
+									<p><span style="background-color: rgb(255, 255, 0);"> </span>Its provides a mathematical technique for replacing a given network, as viewed from two terminals, by a single voltage source with a series resistance. It makes the solution of complicated networks quite quick and easy. The application of this extremly useful theorem will be explained with the help of following simple example.</p>
+									<div>
+									<h2>&nbsp;</h2>
+									<div><br>
+									&nbsp;</div>
+									</div>
+									<h2>&nbsp;</h2>
+									<h2><span style="background-color: rgb(255, 255, 0);">Circuit diagram:</span></h2>
+									<p>&nbsp;</p>
+									<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+									<p style="text-align: center;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt="" src="./image/pic1.JPG" height="237" width="401"></p>
+									<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+									<p>&nbsp;</p>
+									<p>&nbsp;&nbsp;</p>
+									<p style="text-align: left;">&nbsp;Suppose, it is required to find current flowing through load resistance R<sub>L</sub>, as shown in above figure.</p>
+									<p style="text-align: left;">&nbsp;</p>
+									<p style="text-align: left;">This expression proceed as under:</p>
+									<p style="text-align: left;">&nbsp;</p>
+									<p style="text-align: left;">1) Remove R<sub>L</sub> from the circuit terminals A and B and redraw the circuit as shown in figure. Obviously, the terminal have become open circuited.</p>
+									<p style="text-align: left;">&nbsp;</p>
+									<div style="text-align: left;">&nbsp;<br>
+									&nbsp;</div>
+									<h2><span style="background-color: rgb(255, 255, 0);">Circuit diagram:</span></h2>
+									<p>&nbsp;</p>
+									<p>&nbsp;</p>
+									<p style="text-align: center;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="" src="./image/pic2.JPG" height="273" width="422"></p>
+									<p>&nbsp;</p>
+									<p>&nbsp;</p>
+									<p style="text-align: left;">2) Calculate the open circuit Voltages V<sub>O.C. </sub>which appears across terminals A and B when they are open .ie. when R<sub>L</sub> is removed.</p>
+									<p style="text-align: left;">&nbsp;</p>
+									<p style="text-align: left;">As seen, V<sub>.O.C.</sub>= drop across R<sub>2</sub>= IR<sub>2</sub> where I is the circuit current when A and B is open.</p>
+									<p style="text-align: left;">&nbsp;</p>
+									<p style="text-align: left;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img title="Double click to edit" class="Wirisformula" alt="«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mtable columnalign=¨left¨ rowspacing=¨0¨»«mtr»«mtd/»«/mtr»«mtr»«mtd»«mi»I«/mi»«mo»=«/mo»«mfrac»«mi»E«/mi»«mrow»«mi»r«/mi»«mo»+«/mo»«msub»«mi»R«/mi»«mn»1«/mn»«/msub»«mo»+«/mo»«msub»«mi»R«/mi»«mn»2«/mn»«/msub»«/mrow»«/mfrac»«/mtd»«/mtr»«mtr»«mtd/»«/mtr»«mtr»«mtd»«msub»«mi»V«/mi»«mrow»«mi»o«/mi»«mo».«/mo»«mi»c«/mi»«mo».«/mo»«/mrow»«/msub»«mo»=«/mo»«mi»I«/mi»«mo»*«/mo»«msub»«mi»R«/mi»«mrow»«mn»2«/mn»«mo»§nbsp;«/mo»«mo»§nbsp;«/mo»«/mrow»«/msub»«/mtd»«/mtr»«mtr»«mtd»«mo»§nbsp;«/mo»«mo»§nbsp;«/mo»«mo»§nbsp;«/mo»«mo»§nbsp;«/mo»«/mtd»«/mtr»«mtr»«mtd»«mo»§nbsp;«/mo»«mo»§nbsp;«/mo»«mo»§nbsp;«/mo»«mo»§nbsp;«/mo»«mo»=«/mo»«mfrac»«mrow»«mi»E«/mi»«mo»*«/mo»«msub»«mi»R«/mi»«mn»2«/mn»«/msub»«/mrow»«mrow»«mi»r«/mi»«mo»+«/mo»«msub»«mi»R«/mi»«mn»1«/mn»«/msub»«mo»+«/mo»«msub»«mi»R«/mi»«mn»2«/mn»«/msub»«/mrow»«/mfrac»«/mtd»«/mtr»«/mtable»«/math»" src="/fckeditor/editor/plugins/fckeditor_wiris/integration/showimage.php?formula=1db756b1f580382f372a93ca93019b1c.png" align="middle"></p>
+									<p>&nbsp;It is also called Thevenin voltage(V<sub>th</sub>).</p>
+									<p>&nbsp;&nbsp;</p>
+									<p>3) Now, imagine the battery to be removed from the circuit, leaving its internal resistance r behind and redraw the circuit as shown in figure below.</p>
+									<div>&nbsp;</div>
+									<h2><span style="background-color: rgb(255, 255, 0);">Circuit diagram:</span></h2>
+									<p>&nbsp;</p>
+									<p>&nbsp;</p>
+									<p style="text-align: center;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt="" src="./image/pic3.JPG" height="239" width="401"></p>
+									<p>&nbsp;</p>
+									<p>&nbsp;</p>
+									<p>&nbsp;</p>
+									<p>When viewed inwards from the terminals A and B, the circuit consists of two parallel paths: one containing R<sub>2</sub> and another containing</p>
+									<p>&nbsp;</p>
+									<p>(R<sub>1</sub>+r). The equivalent resistance of the network as viewed from these terminals is given as,</p>
+									<p>&nbsp;<br>
+									&nbsp;</p>
+									<div><span style="font-size:18.0pt">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img title="Double click to edit" class="Wirisformula" alt="«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mtable columnalign=¨left¨ rowspacing=¨0¨»«mtr»«mtd»«msub»«mi»R«/mi»«mrow»«mi»t«/mi»«mi»h«/mi»«/mrow»«/msub»«mo»=«/mo»«mfrac»«mrow»«mo»(«/mo»«msub»«mi»R«/mi»«mn»1«/mn»«/msub»«mo»+«/mo»«mi»r«/mi»«mo»)«/mo»«mo»*«/mo»«msub»«mi»R«/mi»«mn»2«/mn»«/msub»«/mrow»«mrow»«mo»(«/mo»«msub»«mi»R«/mi»«mn»1«/mn»«/msub»«mo»+«/mo»«mi»r«/mi»«mo»+«/mo»«msub»«mi»R«/mi»«mn»2«/mn»«/msub»«mo»)«/mo»«/mrow»«/mfrac»«/mtd»«/mtr»«mtr»«mtd/»«/mtr»«/mtable»«/math»" src="/fckeditor/editor/plugins/fckeditor_wiris/integration/showimage.php?formula=50db0d8e3e4aaa08bc4bfbaaeef2068f.png" align="middle"></span></div>
+									<div>&nbsp;</div>
+									<div>&nbsp;</div>
+									<div>The resistance "R<sub>th</sub>" is also called Thevenin equivalent resistance.</div>
+									<div>&nbsp;</div>
+									<div>&nbsp;</div>
+									<div>Consequently , as viewed from terminals A and B, the whole network (excluding R<sub>1</sub>) can be reduced to single source ( called thevenin&#039;s</div>
+									<div>&nbsp;</div>
+									<div>source) whose e.m.f equal to V<sub>O.C.</sub> and whose internal reistance equal to R<sub>th</sub>. &nbsp;<br>
+									<span style="font-size:18.0pt"> </span><span style="font-size:18.0pt"><br>
+									</span></div>
+									<div>&nbsp;</div>
+									<div>4) R<sub>L</sub> is now connected back across terminals A and B from where it was temporaily removed earlier. Current flowing through R<sub>L</sub> is given by,&nbsp;</div>
+									<div>
+									<div>&nbsp;</div>
+									<div>&nbsp;</div>
+									<div>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-size:18.0pt"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img title="Double click to edit" class="Wirisformula" alt="«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mtable columnalign=¨left¨ rowspacing=¨0¨»«mtr»«mtd/»«/mtr»«mtr»«mtd»«msub»«mi»I«/mi»«mn»1«/mn»«/msub»«mo»=«/mo»«mfrac»«msub»«mi»V«/mi»«mrow»«mi»t«/mi»«mi»h«/mi»«/mrow»«/msub»«mrow»«mo»(«/mo»«msub»«mi»R«/mi»«mrow»«mi»t«/mi»«mi»h«/mi»«/mrow»«/msub»«mo»+«/mo»«mi»R«/mi»«msub»«mo»)«/mo»«mi»L«/mi»«/msub»«/mrow»«/mfrac»«/mtd»«/mtr»«/mtable»«/math»" src="/fckeditor/editor/plugins/fckeditor_wiris/integration/showimage.php?formula=74fedfd9934d487b38eda087900b308f.png" align="middle"></span></div>
+									<div>
+									<div>&nbsp;</div>
+									<div>&nbsp;</div>
+									</div>
+									<div><span style="background-color: rgb(255, 255, 0);">&nbsp;</span></div>
+									<h2><span style="background-color: rgb(255, 255, 0);">&nbsp;Circuit Diagram:</span></h2>
+									<div>&nbsp;</div>
+									<div>&nbsp;</div>
+									<div>&nbsp;</div>
+									<div>&nbsp;</div>
+									<div>&nbsp;</div>
+									<div style="text-align: center;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="" src="./image/pic4.JPG" height="350" width="527"></div>
+									<div>&nbsp;</div>
+									<div>&nbsp;</div>
+									<div>&nbsp;</div>
+									<div>&nbsp;</div>
+									<div>&nbsp;</div>
+									<div>&nbsp;</div>
+									<div>&nbsp;</div>
+									<div>&nbsp;</div>
+									<div>&nbsp;</div>
+									</div>
+								</p>
+                            </div>
+                        </div>
+                    </section><!-- Second section of the article-->
+
+                    <!-----------------------------------SECTION - 2-------------------------------------------------------------------------------->                    
+
+                    <section id="experiment-article-section-2">
+                        <div class="icon" id="experiment-article-section-2-icon">
+                            <!-- Enclose the icon image of your lab. -->
+                            <img src="../images/theory.jpg">
+                        </div><!-- The heading for the section can be enclosed in a div tag. -->
+
+                        <div class="heading" id="experiment-article-section-2-heading">
+                            procedure
+                        </div><!-- Write the section content inside a paragraph 
+            element, we can also include images with &lt;img&gt; tag -->
+
+                        <div class="content" id="experiment-article-section-2-content">
+                            <p>
+								<p>&nbsp;</p>
+								<h2><span style="background-color: rgb(255, 255, 0); ">Circuit Diagram:</span></h2>
+								<h2>&nbsp; &nbsp;</h2>
+								<p>&nbsp;</p>
+								<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt="" src="./image/thevnin.JPG" height="335" width="712"></p>
+								<p>&nbsp;</p>
+								<p>&nbsp;</p>
+								<p>&nbsp;</p>
+								<p>1) &nbsp;Keep all the resistance close to their maximum respective values.</p>
+								<p>2) &nbsp;Close the switch S<sub>1</sub> to "aa" and S<sub>2 </sub>to "cc" positions. Observe the load current (I<sub>L</sub>) and voltage (V<sub>L</sub>) readings. The load resistance</p>
+								<p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></p>
+								<p class="MsoNormal">&nbsp; &nbsp; &nbsp; &nbsp; &nbnbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img title="Double click to edit" class="Wirisformula" alt="«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«msub»«mi»R«/mi»«mi»L«/mi»«/msub»«mo»=«/mo»«mfrac»«msub»«mi»V«/mi»«mi»L«/mi»«/msub»«msub»«mi»I«/mi»«mi»L«/mi»«/msub»«/mfrac»«/math»" src="/fckeditor/editor/plugins/fckeditor_wiris/integration/showimage.php?formula=3bd535157dd180d48c1961c535f27f27.png" align="middle"></p>
+								<p class="MsoNormal">&nbsp;</p>
+								<p class="MsoNormal">3) &nbsp;Remove the load by opening the switch S<sub>2 </sub>and read the open circuit voltage (or Thevenin equivalent voltage) V<sub>TH</sub>.</p>
+								<p class="MsoNormal"><br>
+								4) &nbsp;Next, compute the resistance (R<sub>TH)</sub> of the network as seen from the load terminals,&nbsp;</p>
+								<p class="MsoNormal">&nbsp; &nbsp; &nbsp;</p>
+								<p class="MsoNormal">&nbsp; &nbsp; a) Replace the &nbsp;220 V source by a short by closing S<sub>1</sub> to "bb".</p>
+								<p class="MsoNormal">&nbsp; &nbsp; &nbsp;&nbsp;</p>
+								<p class="MsoNormal">&nbsp; &nbsp; &nbsp;b) Apply 110 V at the output terminals by closing S<sub>2</sub> to "dd". Read the voltmeter (V) and ammeter (I) and get</p>
+								<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;</span><span style="font-size:14.0pt"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><o:p></o:p></span></p>
+								<p class="MTDisplayEquation"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img title="Double click to edit" class="Wirisformula" alt="«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«msub»«mi»R«/mi»«mrow»«mi»T«/mi»«mi»H«/mi»«/mrow»«/msub»«mo»=«/mo»«mfrac»«mi»V«/mi»«mi»I«/mi»«/mfrac»«/math»" src="/fckeditor/editor/plugins/fckeditor_wiris/integration/showimage.php?formula=e22eb4ca440cbe0129cb273e6cf28729.png" align="middle"></p>
+								<p class="MTDisplayEquation">&nbsp;</p>
+								<p class="MTDisplayEquation">&nbsp;</p>
+								<p class="MTDisplayEquation">5) Now compute the load current. Applying Thevenin theorem</p>
+								<p class="MsoNormal"><br>
+								<span style="font-size:14.0pt"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img title="Double click to edit" class="Wirisformula" alt="«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«msub»«mi»I«/mi»«mi»L«/mi»«/msub»«mo»=«/mo»«mfrac»«msub»«mi»V«/mi»«mrow»«mi»T«/mi»«mi»H«/mi»«/mrow»«/msub»«mrow»«mo»(«/mo»«msub»«mi»R«/mi»«mrow»«mi»T«/mi»«mi»H«/mi»«/mrow»«/msub»«mo»+«/mo»«msub»«mi»R«/mi»«mi»L«/mi»«/msub»«mo»)«/mo»«/mrow»«/mfrac»«/math»" src="/fckeditor/editor/plugins/fckeditor_wiris/integration/showimage.php?formula=517b9532cc6699ab2d92b512892d6747.png" align="middle"></span></span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+								<p class="MsoNormal">6) Compare the above computed load current with its observed value in step (2) and verify the theorem. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+								<p class="MsoNormal"><span style="font-size:14.0pt"><o:p>&nbsp;</o:p></span></p>
+								<p class="MsoNormal"><span style="font-size:14.0pt"><o:p>&nbsp;</o:p></span></p>
+								<p class="MsoNormal">&nbsp;</p>
+								<p>&nbsp;</p>
+							</p>
+                        </div>
+                    </section>
+                    <!-----------------------------------SECTION - 3--------------------------------------------------------------------------------->                    
+
+                    <section id="experiment-article-section-3">
+                        <div class="icon" id="experiment-article-section-3-icon">
+                            <!-- Enclose the icon image of your lab. -->
+                            <img src="../images/objective.jpg"></div>
+
+                        <div class="heading" id="experiment-article-section-3-heading">
+                            Operating Environment
+                        </div>
+
+                        <div class="content" id="experiment-article-section-3-content">
+                            <div class="divContent">
+                                <p>
+									<p>&nbsp;</p>
+									<h3><span style="color: rgb(153, 51, 102); ">Minimum System Requirement</span>:</h3>
+									<ul>
+										<li>&nbsp; A standard PC running Microsoft Windows XP, Windows Vista.</li>
+										<li>&nbsp;1GB RAM and 500 MB of available hard-disk space is recommended&nbsp;</li>
+										<li>&nbsp;1024x768 or higher screen resolution;</li>
+										<li>&nbsp; a mouse or other pointing device&nbsp;</li>
+										<li>&nbsp; A CD-ROM drive</li>
+									</ul>
+								</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-----------------------------------SECTION - 4-------------------------------------------------------------------------------->                    
+
+                    <section id="experiment-article-section-4">
+                        <div class="icon" id="experiment-article-section-4-icon">
+                            <!-- Enclose the icon image of your lab.-->
+                            <img src="../images/simulation.jpg"></div>
+
+                        <div class="heading" id="experiment-article-section-4-heading">
+                            Simulator
+                        </div>
+
+                        <div class="content" id="experiment-article-section-4-content">
+                            <div class="divContent">
+								<p>&nbsp;</p>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+								<h2><a href="http://analogvls.iitkgp.ac.in:8080/theveninmodification2.html">Click here to run the program</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://www.ni.com/download/labview-run-time-engine-8.6.1/1244/en/"> Click here to download RTE 8.6.1</a></h2>
+								<h2><a href="./js-simulator/thevenin_website_16mar.html">Click here to run the javaScript simulator</a></h2>
+								<p>&nbsp;</p>
+
+								<p>&nbsp;</p>
+
+								<p><span style="background-color:rgb(255, 0, 0)">Note:</span>&nbsp; Before running the simulation, download the LVRTE86min.exe file from NI website from the direct link available<br />
+								through &ldquo;click here to download RTE&nbsp;8.6&rdquo; option. You would require your own user login at NI webpage (if your don&rsquo;t have already) for downloading the .exe file. Run the .exe file. Then unzip the .zip file.</p>
+
+								<p>&nbsp;</p>
+
+								<p>The plugins are installed inC:/Programfiles/NationalInstruments/Shared/LabVIEW Run-Time/Current LabVIEW Version8.6/Browser Plugins.<br />
+								<br />
+								Copy both the Plugins LV86ActiveXControl.dll (for Internet Explorer), nplv86win32.dll (for Mozilla) &amp; paste in respective browser</p>
+
+								<p>plugins.<br />
+								<br />
+								(Eg. c://programfiles/Internet Explorer/Plugins &amp;<br />
+								&nbsp; &nbsp; &nbsp; c://programfiles/Mozilla Firefox/Plugins</p>
+
+								<p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-----------------------------------SECTION - 5------------------------------------------------------------------------------------------------------>                    
+
+                    <section id="experiment-article-section-5">
+                        <div class="icon" id="experiment-article-section-5-icon">
+                            <!-- Enclose the icon image of your lab.-->
+                            <img src="../images/manual.jpg"></div>
+
+                        <div class="heading" id="experiment-article-section-5-heading">
+                            Reference
+                        </div>
+
+                        <div class="content" id="experiment-article-section-5-content">
+                            <div class="divContent">
+                                <p>
+									<p>&nbsp;</p>
+									<h2>A) LabVIEW Tutorial Manual &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <a href="http://www.ni.com/pdf/manuals/320998a.pdf">Click here</a>.</h2>
+									<h2>B) LabVIEW&nbsp;Introduction Course&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://lumen.ni.com/nicif/us/academiclv6hr/content.xhtml">Click here</a>.</h2>
+									<p>&nbsp;</p>
+									<h2>C) Book Name:&nbsp;</h2>
+									<p>&nbsp;</p>
+									<p>1) A. Chakrabarti, Circuit Theory (Analysis and Synthesis). Fifth Edition : 2006, Dhanpat Rai and Co.</p>
+									<p>2) A. Bruce Carlson, Circuits. First Reprint :2002, Thomson Asia Pte Ltd.</p>
+									<p>3) Parker Smith, Problems in Electrical Engineering. Ninth Edition :2003 , M/s Constable and Company, London.</p>
+									<p>&nbsp;</p>
+									<h2>D)&nbsp; VIdeo Lecture &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  <a href="http://nptel.iitm.ac.in/video.php?subjectId=108102042">Click here</a>.</h2>
+									<p>&nbsp;</p>
+									<p>&nbsp;</p>
+								</p>                        
+
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!-----------------------------------SECTION - 6------------------------------------------------------------------------>                    
+
+
+                    <section id="experiment-article-section-6">
+                        <div class="icon" id="experiment-article-section-6-icon">
+                            <!-- Enclose the icon image of your lab.-->
+                            <img src="../images/quizzes.jpg">
+                        </div>
+
+                        <div class="heading" id="experiment-article-section-6-heading">
+                            Project Members
+                        </div>
+
+                        <div class="content" id="experiment-article-section-6-content">
+                            <div class="divContent">
+                                <p>
+									<h3><span style="color: rgb(0, 0, 255); ">Principal Investigator</span></h3>
+									<p>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+									<p>The Principal Investigators of&nbsp; Analog Signals, Network And Measurement Laboratory&nbsp; are:</p>
+									<h4 style="margin-left: 40px; ">1.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Alok Kanti Deb</h4>
+									<p style="margin-left: 80px;">&nbsp;Asst. Professor</p>
+									<p style="margin-left: 80px; ">&nbsp;Department of Electrical Engineering</p>
+									<p style="margin-left: 80px; ">&nbsp;Indian Institute of Technology, Kharagpur - 721302</p>
+									<p style="margin-left: 80px; ">Email: alokkanti @ ee.iitkgp.ernet.in &nbsp;</p>
+									<p style="margin-left: 80px;">&nbsp;</p>
+									<h4 style="margin-left: 40px; ">2.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Siddhartha Mukhopadhyay</h4>
+									<p style="margin-left: 80px;">&nbsp; Professor</p>
+									<p style="margin-left: 80px; ">&nbsp;Department of Electrical Engineering</p>
+									<p style="margin-left: 80px; ">&nbsp;Indian Institute of Technology, Kharagpur - 721302</p>
+									<p style="margin-left: 80px; ">&nbsp;Email: smukh@ee.iitkgp.ernet.in</p>
+									<p style="margin-left: 80px;">&nbsp;</p>
+									<h4 style="margin-left: 40px; ">3.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Anirban Mukherjee</h4>
+									<p style="margin-left: 80px;">&nbsp;Asst. Professor</p>
+									<p style="margin-left: 80px; ">&nbsp;Department of Electrical Engineering</p>
+									<p style="margin-left: 80px; ">&nbsp;Indian Institute of Technology, Kharagpur - 721302</p>
+									<p style="margin-left: 80px; ">&nbsp;Email: anirban @ ee.iitkgp.ernet.in</p>
+									<p style="margin-left: 80px;">&nbsp;</p>
+									<p style="margin-left: 80px;">&nbsp;</p>
+									<p style="margin-left: 80px;">&nbsp;</p>
+									<p style="margin-left: 80px;">&nbsp;</p>
+									<h3><span style="color: rgb(0, 0, 255); ">Student Involved</span></h3>
+									<p>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+									<p>&nbsp; &nbsp; &nbsp;&nbsp; <strong>Tanmoy Dam<br>
+									</strong></p>
+									<p>&nbsp; &nbsp; &nbsp; &nbsp; Email : damtanmoy10@gmail.com</p>
+									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+									<p>&nbsp; &nbsp; &nbsp;&nbsp; <strong>Jogendra Nath Kundu<br>
+									</strong></p>
+									<p>&nbsp; &nbsp; &nbsp; &nbsp; Email : jogendranathkundu@gmail.com</p>
+									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+								</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-----------------------------------SECTION - 7------------------------------------------------------------------------> 
+
+                    <section id="experiment-article-section-7">
+                        <div class="icon" id="experiment-article-section-7-icon">
+                            <!-- Enclose the icon image of your lab.-->
+                            <img src="../images/quizzes.jpg"></div>
+
+                        <div class="heading" id="experiment-article-section-7-heading">
+                            Feedback
+                        </div>
+
+                        <div class="content" id="experiment-article-section-7-content">
+                            <div class="divContent">
+								<p>coming soon....
+								</p>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </article>
+        </div>
+    </body>
+</html>
